@@ -45,7 +45,7 @@ bookdictionary = ["MW Pocket","Merriam-Webster","Random House","Collins","Oxford
 print(*bookdictionary, sep="\n")
 order_request = input("Which dictionary do you want to buy?")
 
-x = bookdictionary.index([order_request])
+x = bookdictionary.index(order_request)
 print(x)
 
 
