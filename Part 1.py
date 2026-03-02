@@ -44,7 +44,7 @@ MW_Collegiate = {
 bookdictionary = ["MW Pocket","Merriam-Webster","Random House","Collins","Oxford","Cambridge","MW Collegiate"]
 print(*bookdictionary, sep="\n")
 order_request = input("Which dictionary do you want to buy?")
-print["{order_request}"]
+print(order_request)
 
 
 "def cost(p,t)"
