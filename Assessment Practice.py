@@ -7,6 +7,13 @@ def englishorfrenchsolver(thelines):
     tcount = 0
     scount = 0
     for i in range(N):
-        if (thelines[i] == "t") or (thelines[i] == "T")
+        if (thelines[i] == "t") or (thelines[i] == "T"):
             tcount =+ 1
-        if (thelines[i] == "s")
+        if (thelines[i] == "s") or (thelines[i] == "S"):
+            scount =+ 1
+    if (scount == tcount) or (scount > tcount):
+        print("French")
+    else:
+        print("English")
+
+englishorfrenchsolver(thelines)
